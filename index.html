@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header Section with Navigation and Contacts -->
+    <header class="site-header">
+      <div class="container header-container">
+        <nav class="main-nav">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-dark">Studio</span></a
+          >
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-info">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-item">
+              <a class="contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="primary-button">Order Service</button>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="container">
+          <h2 class="visually-hidden">Our Features</h2>
+          <ul class="features-list">
+            <li class="feature-item">
+              <div class="feature-item-container">
+                <svg class="feature-item-img" width="64" height="64">
+                  <use xlink:href="./images/icons.svg#icon-antenna" />
+                </svg>
+              </div>
+              <h3 class="feature-title">Strategy</h3>
+              <p class="feature-description">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-item-container">
+                <svg class="feature-item-img" width="64" height="64">
+                  <use xlink:href="./images/icons.svg#icon-clock" />
+                </svg>
+              </div>
+              <h3 class="feature-title">Punctuality</h3>
+              <p class="feature-description">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-item-container">
+                <svg class="feature-item-img" width="64" height="64">
+                  <use xlink:href="./images/icons.svg#icon-diagram" />
+                </svg>
+              </div>
+              <h3 class="feature-title">Diligence</h3>
+              <p class="feature-description">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-item-container">
+                <svg class="feature-item-img" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="feature-title">Technologies</h3>
+              <p class="feature-description">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section class="team-section">
+        <div class="container">
+          <h2 class="section-title">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-member">
+              <img
+                src="./images/Mark.jpg"
+                height="260"
+                width="264"
+                alt="Mark Guerrero - Product Designer"
+              />
+              <div class="member-info">
+                <h3 class="member-name">Mark Guerrero</h3>
+                <p class="member-role">Product Designer</p>
+                <div class="member-info-social-icon-container">
+                  <a href="" class="member-info-social-icon-item">
+                    <svg class="feature-item-img" width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="team-member">
+              <img
+                src="./images/Tom.jpg"
+                height="260"
+                width="264"
+                alt="Tom Ford - Frontend Developer"
+              />
+              <div class="member-info">
+                <h3 class="member-name">Tom Ford</h3>
+                <p class="member-role">Frontend Developer</p>
+                <div class="member-info-social-icon-container">
+                  <a href="" class="member-info-social-icon-item">
+                    <svg class="feature-item-img" width="40" height="40">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="team-member">
+              <img
+                src="./images/Camila.jpg"
+                height="260"
+                width="264"
+                alt="Camila Garcia - Marketing"
+              />
+              <div class="member-info">
+                <h3 class="member-name">Camila Garcia</h3>
+                <p class="member-role">Marketing</p>
+                <div class="member-info-social-icon-container">
+                  <a href="" class="member-info-social-icon-item">
+                    <svg class="feature-item-img" width="40" height="40">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li class="team-member">
+              <img
+                src="./images/Daniel.jpg"
+                height="260"
+                width="264"
+                alt="Daniel Wilson - UI Designer"
+              />
+              <div class="member-info">
+                <h3 class="member-name">Daniel Wilson</h3>
+                <p class="member-role">UI Designer</p>
+                <div class="member-info-social-icon-container">
+                  <a href="" class="member-info-social-icon-item">
+                    <svg class="feature-item-img" width="40" height="40">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="member-info-social-icon-item">
+                    <svg width="40" height="40">
+                      <use xlink:href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio-section">
+        <div class="container">
+          <h2 class="section-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio1.jpg"
+                height="300"
+                width="360"
+                alt="Banking App interface"
+              />
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-category">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio2.jpg"
+                height="300"
+                width="360"
+                alt="Cashless Payment illustration"
+              />
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-category">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio3.jpg"
+                height="300"
+                width="360"
+                alt="Meditation App on laptop and phone"
+              />
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-category">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio4.jpg"
+                height="300"
+                width="360"
+                alt="Taxi Service app in car"
+              />
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-category">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio5.jpg"
+                height="300"
+                width="360"
+                alt="Screen Illustrations designs"
+              />
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-category">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                src="./images/portfolio6.jpg"
+                height="300"
+                width="360"
+                alt="Woman using Online Courses"
+              />
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-category">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-site-info">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-light">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social-icon">
+          <h3>Social media</h3>
+          <div class="footer-social-icon-container">
+            <a href="" class="footer-social-icon-item">
+              <svg class="feature-item-img" width="40" height="40">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="" class="footer-social-icon-item">
+              <svg width="40" height="40">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="" class="footer-social-icon-item">
+              <svg width="40" height="40">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="" class="footer-social-icon-item">
+              <svg width="40" height="40">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
