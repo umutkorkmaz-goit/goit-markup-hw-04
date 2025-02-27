@@ -430,6 +430,7 @@ a {
 .footer-social-icon {
   display: flex;
   flex-direction: column;
+  margin-bottom: 16px;
 }
 
 .footer-social-icon-item {
